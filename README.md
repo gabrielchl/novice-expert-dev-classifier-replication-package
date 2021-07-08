@@ -4,11 +4,11 @@ This is a repository that holds original data and code used in the paper for rep
 
 ## Structure
 
-`dev-code/` - Developer's code used to train the models
+`dev-code/` and `dev-code-original/` - Developer's code used to train the models (dev-code contains code with "original code" removed)
 
 `Halstead-Complexity-Measures/` - A Java program developed by [Ahmed A. Metwally](https://github.com/aametwally/Halstead-Complexity-Measures) that extracts halstead metrics from a piece of Java code. Modified to export values to a CSV file instead of printing to standard output.
 
-`novice_usernames.txt` and `expert_usernames.txt` - Text files containing a list of novice and expert usernames, to label the code in `dev-code/`.
+`novice_usernames.txt` and `expert_usernames.txt` - Text files containing a list of novice and expert usernames, to label the code in `dev-code/` and `dev-code-original/`.
 
 `features_extractor.py` - Extracts all features (except halstead metrics, which have to be obtained through the separate program mentioned above).
 
